@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ /* 540 x 349*/
+    background-color:rgb(78, 78, 187);
+}
+#logo-final{
+   display: flex;
+   justify-content: center;
+}
+#logo-final img{
+    margin-top: 50px;
+}
+
+#container{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+}
+#container img{
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 540px;
+    height: 349px;
+}
+#container #flex{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#container #flex h1{
+    margin-left: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container #flex p{
+    margin-top: 15px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container #flex h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    margin-left: 30px;
+    color: white;
+    
+}
+
+#container #flex #box{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+
+
+
+footer{
+    background-color: rgb(24, 24, 82);
+    height: 150px;
+}
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer p .redes{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    padding-bottom: 100px;
+}
+ul li{
+    margin-left: 515px;
+}

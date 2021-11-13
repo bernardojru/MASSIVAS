@@ -1,0 +1,36 @@
+
+Tags e as suas funções usadas no nosso site(tudo que está aqui foi usado no nosso site):
+<head>
+  favicon = tag que nos permite criar um icone(imagem) que fica na aba superior do site.
+</head>
+
+<body>
+   <header> - é o local onde colocamos o cabeçário da página como : barra de pesquisa, menus , título , logo . 
+           *nav - onde colocamos os menus(só os menus)
+           *input - que é um comando de entrada de dados(informações) que em HTML é representado por uma caixa branca , que quando configurado pode virar uma barra de                pesquisa.
+           *h1 - o local onde colocamos o nosso título.
+           *img - tag de imagem, onde colocar uma imagem e aonde está a nossa logo.
+           *a -que nos permite criar um link, todos os menus do site são um link. Colocamos assim : <nav> <a> Menu </a> </nav>
+             
+  </header>
+  
+  <main> - local onde colocamos o nosso conteúdo principal : imagem central , alguns paragráfos
+           *img - aonde colocamos a imagem central do site.
+           *p - serve para escrever paragráfos
+           *br - serve para dar um espaço entre de um paragráfo para o outro.
+           *hr - serve para por uma linha.
+           *h2 - serve para dar um subtítulo.
+           *button - serve para criar um botão.
+           *ul - serve para criar uma lista ordernada.
+               *li - local que colocamos os itens da lista
+  </main>
+  
+  <footer> - local onde colocamos as informações finais como : redes sociais, nome do autor, avisos sobre os direitos autorais , contactos ...
+        
+
+
+</body> fim do nosso body.
+
+
+   
+           

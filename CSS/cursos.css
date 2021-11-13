@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* IMAGENS DEVEM TER 64 X 64*/
+body{
+    background-color:rgb(78, 78, 187);
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    margin: 100px;
+    padding: 50px;
+}
+.container .content{
+    width: 50rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .content .img{
+    border: solid ;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.container .const{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 55rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container .const .curso{
+    color: white;
+}
+.container .const .curso:nth-child(1){
+     padding-left: 32px;
+}
+.container .const .curso:nth-child(2){
+     padding-right: 30px;
+}
+.container .const .curso:nth-child(3){
+     padding-right: 55px;
+}
+
+.container .const .cur{
+    color: white;
+}
+.container .const .cur:nth-child(1){
+    color: white;
+   /* aqui está perfeitamente alinhado */
+}
+.container .const .cur:nth-child(2){
+     padding-right: 70px;
+}
+.container .const .cur:nth-child(3){
+     padding-right: 55px;
+}
+
+
+
+
+footer{
+    background-color: rgb(24, 24, 82);
+    height: 150px;
+}
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer p .redes{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    padding-bottom: 100px;
+}
+ul li{
+    margin-left: 515px;
+}

@@ -1,0 +1,253 @@
+@charset "UTF-8";
+body{
+    background-color:rgb(78, 78, 187);
+    margin: 0;
+
+}
+header{
+    padding-bottom: 10px;
+    margin-top: -21px;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+
+    
+}
+header img{
+    height: 50px;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+header h1{
+    color: white;
+    padding-top: 0px;
+    padding-left: 100px;
+    display: flex;
+    
+    align-items: center;
+    
+}
+h1 #massivas{
+    margin: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+h1 #M{
+    margin-bottom: -10px;
+    text-decoration: none;
+    color: white;
+}
+/* barra de pesquisa */
+.search-box{
+    margin-bottom: -5%;
+    position: absolute;
+    margin-left: 80%;
+    border: 0;
+    border-radius: 40px;
+    background-color :rgb(63, 63, 145);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+
+}
+.search-txt{
+    padding-right: 20px;
+    outline: none;
+    background-color :rgb(63, 63, 145);
+    border: 0;
+    color: white;
+    width: 0;
+    padding: 0;
+    transition: .8s;
+    
+}
+.search-btn{
+    border: 0;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-btn img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box:hover .search-txt{
+    width: 160px;
+    padding: 0 6px;
+     
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+/* fim da barra de pesquisa*/
+
+/* menu */
+ nav{
+    margin-top: -70px;
+    margin-left: 500px; 
+
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#sbcol{
+   transition: .10s;
+}
+#cursos{
+    transition: .10s;
+}
+#login{
+    border: 0;
+    border-radius: 40px;
+    color:black;
+    background: white;
+    padding: 10px;
+    transition: .10s;
+}
+#sbcol:hover{
+    color: black;
+}
+#cursos:hover{
+    color: black;
+}
+#login:hover{
+    color: white;
+    background-color: black;
+}
+
+/* fim do menu */
+
+main{
+    margin-bottom: 100px;
+
+}
+
+/* Animação das imgaens */
+.image{
+    margin: auto;
+    padding-top: 121px;
+
+}
+
+ .animation{
+    height:0;
+    width: 0;
+    transition: .30s;
+  
+}
+.central {
+    border-radius: 10px;
+    width: 1340px; 
+    height: 600px;
+    transition: .30s;
+
+}
+.anima {
+    height: 0;
+    width: 0;
+    transition: .30s;
+}
+
+ .image:hover  .central{
+      width: 500px;
+      height: 600px;
+      margin-left: 10px;
+}
+.image:hover  .animation{
+    padding-left: 220px;
+    padding-bottom: 215px;
+    height:200px;
+    width: 200px;
+}
+.image:hover  .anima{
+    padding-left: 10px;
+    padding-bottom: 215px;
+    height: 200px;
+    width: 200px;
+}
+/* Fim da Animação das imgaens */
+
+
+
+hr{
+    width: 1000px;
+    color: rgb(12, 11, 11);
+    margin-top: 0;
+}    
+
+main h1{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* container */
+#container{
+    margin-top: 160px;
+    margin-bottom: 200px;
+}
+#content{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#content img{
+    border: solid;
+    border-radius: 40px;
+    padding: 10px;
+}
+#frase {
+    margin: auto;
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+}
+#frase #dif{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#frase #dif2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 90px;
+}
+
+footer{
+    background-color: rgb(24, 24, 82);
+    height: 150px;
+}
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer p .redes{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    padding-bottom: 100px;
+}
+ul li{
+    margin-left: 515px;
+}

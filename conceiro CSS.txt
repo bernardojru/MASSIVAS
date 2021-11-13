@@ -1,0 +1,29 @@
+
+Todos os comandos aqui presentes foram usados no nosso site.
+
+
+background-color - serve para dar uma cor de fundo ao nosso site.
+
+margin - é o espaço que fica na parte de fora do nosso conteúdo. 
+
+padding - é o espaço que fica dentro do nosso conteúdo.
+
+position: fixed -serve para deixar o nosso conteúdo em uma posição fixa.
+
+width - serve para dar a largura ao nosso site.
+
+height - serve para dar a altura do nosso site.
+
+justify-content: space-between -  move os items na horizontal dando também um pequeno espaço entre eles.
+
+align-items: center - serve para deixar um item linhado no centro.
+
+display: flex - deixar o teu conteúdo inmoldavel(incapaz de mover), moldavel(possivel de mover), ou seja depois desse comando podes usar "align-items".
+
+color : da uma cor ao teu conteúdo(todos os conteudos menos imagem e video)
+
+border: solid - serve para criar uma borda a volta do conteúdo.
+border-radius - serve para deixar a borda curva, da uma curva na borda.
+
+hover - comando que permite uma nova estilização css ou seja ele muda as coisas para o que voce quiser, permitindo fazer mini animações,  a animação da imagem do nosso site foi feito usando esse comando no css.
+
