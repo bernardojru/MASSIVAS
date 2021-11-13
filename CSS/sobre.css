@@ -17,14 +17,16 @@ body{ /* 540 x 349*/
 
 #container{
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 200px; 
     display: flex;
+    justify-content: center;
 }
 #container img{
     margin-left: 100px;
     border-radius: 10px;
     width: 540px;
     height: 349px;
+   
 }
 #container #flex{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
