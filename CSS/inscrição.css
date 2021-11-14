@@ -6,9 +6,11 @@
 
 body{
     background-color:rgb(78, 78, 187);
+    margin-top: 100px;
+    
 }
 #container{
-    margin: 100px;
+    margin:auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #container section{
@@ -39,6 +41,7 @@ body{
 
 
 footer{
+    margin-top: 100px;
     background-color: rgb(24, 24, 82);
     height: 150px;
 }
@@ -66,3 +69,8 @@ ul{
 ul li{
     margin-left: 515px;
 }
+
+
+
+/* RESPONSIVIDADE */
+
