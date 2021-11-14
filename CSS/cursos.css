@@ -97,3 +97,50 @@ ul{
 ul li{
     margin-left: 515px;
 }
+/* RESPONSIVIDADE */
+@media (max-width:600px){
+.container .content{
+    display: block;
+    margin: auto;
+    border: 0;
+    width: 60%;
+}
+.container .const{
+    display: block;
+    margin-top: -3.4rem;
+    padding: rem;
+    margin-left: 4.9rem;
+    width: 13rem;
+    text-align: center;
+}
+/* coluna 1 das prof */
+.container .const .curso:nth-child(1){
+     display: none;
+}
+.container .const .curso:nth-child(2){
+    display: none;
+   
+}
+.container .const .curso:nth-child(3){
+    display: none;
+
+}
+
+/* coluna 2 das prof */
+.container .const .cur:nth-child(1){
+    display: none;
+
+}
+.container .const .cur:nth-child(2){
+    /* margin-top: -20rem; */
+    padding: 0;
+    display: none;
+
+}
+.container .const .cur:nth-child(3){
+    padding: 0;
+    display: none;
+
+}
+
+}
