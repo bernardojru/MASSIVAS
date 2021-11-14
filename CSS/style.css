@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
     background-color:rgb(78, 78, 187);
-    margin: 0;
+    margin: auto;
 
 }
 header{
@@ -12,6 +12,9 @@ header{
     margin: 0;
 
     
+}
+img{
+    max-width: 100% ;
 }
 header img{
     height: 50px;
