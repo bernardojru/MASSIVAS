@@ -6,7 +6,10 @@
 body{
     background-color:rgb(78, 78, 187);
 }
-
+div a img{
+    margin-left: 2%;
+    margin-bottom: -5%;
+}
 h1{
     margin: 100px;
     text-align: center;

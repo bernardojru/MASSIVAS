@@ -6,8 +6,13 @@
 
 body{
     background-color:rgb(78, 78, 187);
-    margin-top: 100px;
+
     
+}
+div a img{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
 }
 #container{
     margin:auto;
